@@ -19,7 +19,7 @@ A classic Hangman game built using React JS and Tailwind CSS. The game allows a 
 
 ## Website Link
 
-[Hangman Game](https://hangman-game-in-react.vercel.app/start)
+<a href="https://hangman-game-in-react.vercel.app/" target="_blank">Hangman Game</a>
 
 
 ## Project Screenshot
