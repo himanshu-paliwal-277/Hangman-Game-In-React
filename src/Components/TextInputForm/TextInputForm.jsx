@@ -12,6 +12,7 @@ function TextInputForm({handleFormSubmit, handleTextInputChange,hintWord, handle
                     type={inputType}
                     onChange={handleTextInputChange}
                     value={value}
+                    require="true"
                 />
 
                 <Button 

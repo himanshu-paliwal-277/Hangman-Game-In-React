@@ -1,4 +1,4 @@
-function TextInput({label, type="text", value, onChange}) {
+function TextInput({label, type="text", value, onChange, require="false"}) {
     
     return (
         <label className="block w-full">
@@ -10,6 +10,7 @@ function TextInput({label, type="text", value, onChange}) {
                 placeholder={label}
                 type={type}
                 value={value}
+                required={require === "true" ? true : false}
             />
         </label>
     )
